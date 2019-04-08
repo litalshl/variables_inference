@@ -1,0 +1,1020 @@
+{
+  "type": "Block",
+  "lines": [
+    {
+      "type": "Class",
+      "title": {
+        "type": "Var",
+        "value": "A",
+        "first_line": 1,
+        "first_column": 6,
+        "last_line": 1,
+        "last_column": 8,
+        "line": 1,
+        "column": 6
+      },
+      "sup": {
+        "type": "Var",
+        "value": "int",
+        "first_line": 1,
+        "first_column": 8,
+        "last_line": 1,
+        "last_column": 16,
+        "line": 1,
+        "column": 8
+      },
+      "mixins": null,
+      "fun": {
+        "type": "Fun",
+        "params": [],
+        "body": {
+          "type": "Block",
+          "lines": [],
+          "first_line": 1,
+          "first_column": 16,
+          "last_line": 2,
+          "last_column": 0,
+          "line": 1,
+          "column": 16
+        },
+        "curried": false,
+        "hushed": false,
+        "generator": false,
+        "async": false
+      },
+      "first_line": 1,
+      "first_column": 0,
+      "last_line": 2,
+      "last_column": 0,
+      "line": 1,
+      "column": 0
+    },
+    {
+      "type": "Class",
+      "title": {
+        "type": "Var",
+        "value": "B",
+        "first_line": 2,
+        "first_column": 6,
+        "last_line": 2,
+        "last_column": 8,
+        "line": 2,
+        "column": 6
+      },
+      "sup": {
+        "type": "Var",
+        "value": "A",
+        "first_line": 2,
+        "first_column": 8,
+        "last_line": 2,
+        "last_column": 16,
+        "line": 2,
+        "column": 8
+      },
+      "mixins": null,
+      "fun": {
+        "type": "Fun",
+        "params": [],
+        "body": {
+          "type": "Block",
+          "lines": [],
+          "first_line": 2,
+          "first_column": 16,
+          "last_line": 3,
+          "last_column": 0,
+          "line": 2,
+          "column": 16
+        },
+        "curried": false,
+        "hushed": false,
+        "generator": false,
+        "async": false
+      },
+      "first_line": 2,
+      "first_column": 0,
+      "last_line": 3,
+      "last_column": 0,
+      "line": 2,
+      "column": 0
+    },
+    {
+      "type": "Class",
+      "title": {
+        "type": "Var",
+        "value": "C",
+        "first_line": 3,
+        "first_column": 6,
+        "last_line": 3,
+        "last_column": 8,
+        "line": 3,
+        "column": 6
+      },
+      "sup": {
+        "type": "Var",
+        "value": "A",
+        "first_line": 3,
+        "first_column": 8,
+        "last_line": 3,
+        "last_column": 16,
+        "line": 3,
+        "column": 8
+      },
+      "mixins": null,
+      "fun": {
+        "type": "Fun",
+        "params": [],
+        "body": {
+          "type": "Block",
+          "lines": [],
+          "first_line": 3,
+          "first_column": 16,
+          "last_line": 5,
+          "last_column": 0,
+          "line": 3,
+          "column": 16
+        },
+        "curried": false,
+        "hushed": false,
+        "generator": false,
+        "async": false
+      },
+      "first_line": 3,
+      "first_column": 0,
+      "last_line": 5,
+      "last_column": 0,
+      "line": 3,
+      "column": 0
+    },
+    {
+      "type": "Assign",
+      "left": {
+        "type": "Var",
+        "value": "A2B",
+        "first_line": 5,
+        "first_column": 0,
+        "last_line": 5,
+        "last_column": 4,
+        "line": 5,
+        "column": 0
+      },
+      "op": "=",
+      "opLoc": "=",
+      "right": {
+        "type": "Fun",
+        "params": [
+          {
+            "type": "Var",
+            "value": "a",
+            "first_line": 5,
+            "first_column": 7,
+            "last_line": 5,
+            "last_column": 8,
+            "line": 5,
+            "column": 7
+          }
+        ],
+        "body": {
+          "type": "Block",
+          "lines": [
+            {
+              "type": "Assign",
+              "left": {
+                "type": "Var",
+                "value": "b",
+                "first_line": 6,
+                "first_column": 1,
+                "last_line": 6,
+                "last_column": 3,
+                "line": 6,
+                "column": 1
+              },
+              "op": "=",
+              "opLoc": "=",
+              "right": {
+                "type": "Unary",
+                "op": "new",
+                "it": {
+                  "type": "Var",
+                  "value": "B",
+                  "first_line": 6,
+                  "first_column": 9,
+                  "last_line": 7,
+                  "last_column": 1,
+                  "line": 6,
+                  "column": 9,
+                  "newed": true
+                },
+                "first_line": 6,
+                "first_column": 5,
+                "last_line": 7,
+                "last_column": 1,
+                "line": 6,
+                "column": 5
+              },
+              "first_line": 6,
+              "first_column": 1,
+              "last_line": 7,
+              "last_column": 1,
+              "line": 6,
+              "column": 1
+            },
+            {
+              "type": "Assign",
+              "left": {
+                "type": "Var",
+                "value": "b",
+                "first_line": 7,
+                "first_column": 1,
+                "last_line": 7,
+                "last_column": 3,
+                "line": 7,
+                "column": 1
+              },
+              "op": "=",
+              "opLoc": "=",
+              "right": {
+                "type": "Chain",
+                "head": {
+                  "type": "Var",
+                  "value": "someBFunction",
+                  "first_line": 7,
+                  "first_column": 5,
+                  "last_line": 7,
+                  "last_column": 18,
+                  "line": 7,
+                  "column": 5
+                },
+                "tails": [
+                  {
+                    "type": "Call",
+                    "args": [
+                      {
+                        "type": "Var",
+                        "value": "a",
+                        "first_line": 7,
+                        "first_column": 19,
+                        "last_line": 7,
+                        "last_column": 20,
+                        "line": 7,
+                        "column": 19
+                      }
+                    ],
+                    "first_line": 7,
+                    "first_column": 18,
+                    "last_line": 9,
+                    "last_column": 0,
+                    "line": 7,
+                    "column": 18
+                  }
+                ],
+                "first_line": 7,
+                "first_column": 5,
+                "last_line": 9,
+                "last_column": 0,
+                "line": 7,
+                "column": 5
+              },
+              "first_line": 7,
+              "first_column": 1,
+              "last_line": 9,
+              "last_column": 0,
+              "line": 7,
+              "column": 1
+            }
+          ],
+          "first_line": 6,
+          "first_column": 1,
+          "last_line": 9,
+          "last_column": 0,
+          "line": 6,
+          "column": 1
+        },
+        "bound": false,
+        "curried": false,
+        "hushed": false,
+        "generator": false,
+        "async": false,
+        "first_line": 5,
+        "first_column": 6,
+        "last_line": 9,
+        "last_column": 0,
+        "line": 5,
+        "column": 6
+      },
+      "first_line": 5,
+      "first_column": 0,
+      "last_line": 9,
+      "last_column": 0,
+      "line": 5,
+      "column": 0
+    },
+    {
+      "type": "Assign",
+      "left": {
+        "type": "Var",
+        "value": "bee",
+        "first_line": 9,
+        "first_column": 0,
+        "last_line": 9,
+        "last_column": 4,
+        "line": 9,
+        "column": 0
+      },
+      "op": "=",
+      "opLoc": "=",
+      "right": {
+        "type": "Fun",
+        "params": [
+          {
+            "type": "Var",
+            "value": "b_1",
+            "first_line": 9,
+            "first_column": 7,
+            "last_line": 9,
+            "last_column": 10,
+            "line": 9,
+            "column": 7
+          },
+          {
+            "type": "Var",
+            "value": "b_2",
+            "first_line": 9,
+            "first_column": 12,
+            "last_line": 9,
+            "last_column": 15,
+            "line": 9,
+            "column": 12
+          }
+        ],
+        "body": {
+          "type": "Block",
+          "lines": [
+            {
+              "type": "Chain",
+              "head": {
+                "type": "Var",
+                "value": "A2B",
+                "first_line": 10,
+                "first_column": 1,
+                "last_line": 10,
+                "last_column": 4,
+                "line": 10,
+                "column": 1
+              },
+              "tails": [
+                {
+                  "type": "Call",
+                  "args": [
+                    {
+                      "type": "Binary",
+                      "partial": false,
+                      "op": "+",
+                      "first": {
+                        "type": "Var",
+                        "value": "b_1",
+                        "first_line": 10,
+                        "first_column": 5,
+                        "last_line": 10,
+                        "last_column": 9,
+                        "line": 10,
+                        "column": 5
+                      },
+                      "second": {
+                        "type": "Var",
+                        "value": "b_2",
+                        "first_line": 10,
+                        "first_column": 11,
+                        "last_line": 10,
+                        "last_column": 14,
+                        "line": 10,
+                        "column": 11
+                      },
+                      "first_line": 10,
+                      "first_column": 9,
+                      "last_line": 10,
+                      "last_column": 11,
+                      "line": 10,
+                      "column": 9
+                    }
+                  ],
+                  "first_line": 10,
+                  "first_column": 4,
+                  "last_line": 12,
+                  "last_column": 0,
+                  "line": 10,
+                  "column": 4
+                }
+              ],
+              "first_line": 10,
+              "first_column": 1,
+              "last_line": 12,
+              "last_column": 0,
+              "line": 10,
+              "column": 1
+            }
+          ],
+          "first_line": 10,
+          "first_column": 1,
+          "last_line": 12,
+          "last_column": 0,
+          "line": 10,
+          "column": 1
+        },
+        "bound": false,
+        "curried": false,
+        "hushed": false,
+        "generator": false,
+        "async": false,
+        "first_line": 9,
+        "first_column": 6,
+        "last_line": 12,
+        "last_column": 0,
+        "line": 9,
+        "column": 6
+      },
+      "first_line": 9,
+      "first_column": 0,
+      "last_line": 12,
+      "last_column": 0,
+      "line": 9,
+      "column": 0
+    },
+    {
+      "type": "Assign",
+      "left": {
+        "type": "Var",
+        "value": "AandC",
+        "first_line": 12,
+        "first_column": 0,
+        "last_line": 12,
+        "last_column": 6,
+        "line": 12,
+        "column": 0
+      },
+      "op": "=",
+      "opLoc": "=",
+      "right": {
+        "type": "Fun",
+        "params": [
+          {
+            "type": "Var",
+            "value": "a",
+            "first_line": 12,
+            "first_column": 9,
+            "last_line": 12,
+            "last_column": 10,
+            "line": 12,
+            "column": 9
+          },
+          {
+            "type": "Var",
+            "value": "c",
+            "first_line": 12,
+            "first_column": 11,
+            "last_line": 12,
+            "last_column": 12,
+            "line": 12,
+            "column": 11
+          }
+        ],
+        "body": {
+          "type": "Block",
+          "lines": [
+            {
+              "type": "Assign",
+              "left": {
+                "type": "Var",
+                "value": "bb",
+                "first_line": 13,
+                "first_column": 1,
+                "last_line": 13,
+                "last_column": 4,
+                "line": 13,
+                "column": 1
+              },
+              "op": "=",
+              "opLoc": "=",
+              "right": {
+                "type": "Chain",
+                "head": {
+                  "type": "Var",
+                  "value": "A2B",
+                  "first_line": 13,
+                  "first_column": 6,
+                  "last_line": 13,
+                  "last_column": 9,
+                  "line": 13,
+                  "column": 6
+                },
+                "tails": [
+                  {
+                    "type": "Call",
+                    "args": [
+                      {
+                        "type": "Var",
+                        "value": "c",
+                        "first_line": 13,
+                        "first_column": 10,
+                        "last_line": 13,
+                        "last_column": 11,
+                        "line": 13,
+                        "column": 10
+                      }
+                    ],
+                    "first_line": 13,
+                    "first_column": 9,
+                    "last_line": 14,
+                    "last_column": 1,
+                    "line": 13,
+                    "column": 9
+                  }
+                ],
+                "first_line": 13,
+                "first_column": 6,
+                "last_line": 14,
+                "last_column": 1,
+                "line": 13,
+                "column": 6
+              },
+              "first_line": 13,
+              "first_column": 1,
+              "last_line": 14,
+              "last_column": 1,
+              "line": 13,
+              "column": 1
+            },
+            {
+              "type": "Assign",
+              "left": {
+                "type": "Var",
+                "value": "d",
+                "first_line": 14,
+                "first_column": 1,
+                "last_line": 14,
+                "last_column": 3,
+                "line": 14,
+                "column": 1
+              },
+              "op": "=",
+              "opLoc": "=",
+              "right": {
+                "type": "Unary",
+                "op": "new",
+                "it": {
+                  "type": "Var",
+                  "value": "C",
+                  "first_line": 14,
+                  "first_column": 9,
+                  "last_line": 15,
+                  "last_column": 1,
+                  "line": 14,
+                  "column": 9,
+                  "newed": true
+                },
+                "first_line": 14,
+                "first_column": 5,
+                "last_line": 15,
+                "last_column": 1,
+                "line": 14,
+                "column": 5
+              },
+              "first_line": 14,
+              "first_column": 1,
+              "last_line": 15,
+              "last_column": 1,
+              "line": 14,
+              "column": 1
+            },
+            {
+              "type": "Assign",
+              "left": {
+                "type": "Var",
+                "value": "d",
+                "first_line": 15,
+                "first_column": 1,
+                "last_line": 15,
+                "last_column": 3,
+                "line": 15,
+                "column": 1
+              },
+              "op": "=",
+              "opLoc": "=",
+              "right": {
+                "type": "Chain",
+                "head": {
+                  "type": "Var",
+                  "value": "A2B",
+                  "first_line": 15,
+                  "first_column": 5,
+                  "last_line": 15,
+                  "last_column": 8,
+                  "line": 15,
+                  "column": 5
+                },
+                "tails": [
+                  {
+                    "type": "Call",
+                    "args": [
+                      {
+                        "type": "Var",
+                        "value": "bb",
+                        "first_line": 15,
+                        "first_column": 9,
+                        "last_line": 15,
+                        "last_column": 11,
+                        "line": 15,
+                        "column": 9
+                      }
+                    ],
+                    "first_line": 15,
+                    "first_column": 8,
+                    "last_line": 17,
+                    "last_column": 0,
+                    "line": 15,
+                    "column": 8
+                  }
+                ],
+                "first_line": 15,
+                "first_column": 5,
+                "last_line": 17,
+                "last_column": 0,
+                "line": 15,
+                "column": 5
+              },
+              "first_line": 15,
+              "first_column": 1,
+              "last_line": 17,
+              "last_column": 0,
+              "line": 15,
+              "column": 1
+            }
+          ],
+          "first_line": 13,
+          "first_column": 1,
+          "last_line": 17,
+          "last_column": 0,
+          "line": 13,
+          "column": 1
+        },
+        "bound": false,
+        "curried": false,
+        "hushed": false,
+        "generator": false,
+        "async": false,
+        "first_line": 12,
+        "first_column": 8,
+        "last_line": 17,
+        "last_column": 0,
+        "line": 12,
+        "column": 8
+      },
+      "first_line": 12,
+      "first_column": 0,
+      "last_line": 17,
+      "last_column": 0,
+      "line": 12,
+      "column": 0
+    },
+    {
+      "type": "Assign",
+      "left": {
+        "type": "Var",
+        "value": "a",
+        "first_line": 17,
+        "first_column": 0,
+        "last_line": 17,
+        "last_column": 2,
+        "line": 17,
+        "column": 0
+      },
+      "op": "=",
+      "opLoc": "=",
+      "right": {
+        "type": "Unary",
+        "op": "new",
+        "it": {
+          "type": "Var",
+          "value": "A",
+          "first_line": 17,
+          "first_column": 8,
+          "last_line": 18,
+          "last_column": 0,
+          "line": 17,
+          "column": 8,
+          "newed": true
+        },
+        "first_line": 17,
+        "first_column": 4,
+        "last_line": 18,
+        "last_column": 0,
+        "line": 17,
+        "column": 4
+      },
+      "first_line": 17,
+      "first_column": 0,
+      "last_line": 18,
+      "last_column": 0,
+      "line": 17,
+      "column": 0
+    },
+    {
+      "type": "Assign",
+      "left": {
+        "type": "Var",
+        "value": "b1",
+        "first_line": 18,
+        "first_column": 0,
+        "last_line": 18,
+        "last_column": 3,
+        "line": 18,
+        "column": 0
+      },
+      "op": "=",
+      "opLoc": "=",
+      "right": {
+        "type": "Chain",
+        "head": {
+          "type": "Var",
+          "value": "A2B",
+          "first_line": 18,
+          "first_column": 5,
+          "last_line": 18,
+          "last_column": 8,
+          "line": 18,
+          "column": 5
+        },
+        "tails": [
+          {
+            "type": "Call",
+            "args": [
+              {
+                "type": "Var",
+                "value": "a",
+                "first_line": 18,
+                "first_column": 9,
+                "last_line": 18,
+                "last_column": 10,
+                "line": 18,
+                "column": 9
+              }
+            ],
+            "first_line": 18,
+            "first_column": 8,
+            "last_line": 19,
+            "last_column": 0,
+            "line": 18,
+            "column": 8
+          }
+        ],
+        "first_line": 18,
+        "first_column": 5,
+        "last_line": 19,
+        "last_column": 0,
+        "line": 18,
+        "column": 5
+      },
+      "first_line": 18,
+      "first_column": 0,
+      "last_line": 19,
+      "last_column": 0,
+      "line": 18,
+      "column": 0
+    },
+    {
+      "type": "Assign",
+      "left": {
+        "type": "Var",
+        "value": "b2",
+        "first_line": 19,
+        "first_column": 0,
+        "last_line": 19,
+        "last_column": 3,
+        "line": 19,
+        "column": 0
+      },
+      "op": "=",
+      "opLoc": "=",
+      "right": {
+        "type": "Chain",
+        "head": {
+          "type": "Var",
+          "value": "A2B",
+          "first_line": 19,
+          "first_column": 5,
+          "last_line": 19,
+          "last_column": 8,
+          "line": 19,
+          "column": 5
+        },
+        "tails": [
+          {
+            "type": "Call",
+            "args": [
+              {
+                "type": "Var",
+                "value": "a",
+                "first_line": 19,
+                "first_column": 9,
+                "last_line": 19,
+                "last_column": 10,
+                "line": 19,
+                "column": 9
+              }
+            ],
+            "first_line": 19,
+            "first_column": 8,
+            "last_line": 20,
+            "last_column": 0,
+            "line": 19,
+            "column": 8
+          }
+        ],
+        "first_line": 19,
+        "first_column": 5,
+        "last_line": 20,
+        "last_column": 0,
+        "line": 19,
+        "column": 5
+      },
+      "first_line": 19,
+      "first_column": 0,
+      "last_line": 20,
+      "last_column": 0,
+      "line": 19,
+      "column": 0
+    },
+    {
+      "type": "Chain",
+      "head": {
+        "type": "Var",
+        "value": "bee",
+        "first_line": 20,
+        "first_column": 0,
+        "last_line": 20,
+        "last_column": 3,
+        "line": 20,
+        "column": 0
+      },
+      "tails": [
+        {
+          "type": "Call",
+          "args": [
+            {
+              "type": "Var",
+              "value": "b1",
+              "first_line": 20,
+              "first_column": 4,
+              "last_line": 20,
+              "last_column": 6,
+              "line": 20,
+              "column": 4
+            },
+            {
+              "type": "Var",
+              "value": "b2",
+              "first_line": 20,
+              "first_column": 7,
+              "last_line": 20,
+              "last_column": 9,
+              "line": 20,
+              "column": 7
+            }
+          ],
+          "first_line": 20,
+          "first_column": 3,
+          "last_line": 21,
+          "last_column": 0,
+          "line": 20,
+          "column": 3
+        }
+      ],
+      "first_line": 20,
+      "first_column": 0,
+      "last_line": 21,
+      "last_column": 0,
+      "line": 20,
+      "column": 0
+    },
+    {
+      "type": "Assign",
+      "left": {
+        "type": "Var",
+        "value": "c1",
+        "first_line": 21,
+        "first_column": 0,
+        "last_line": 21,
+        "last_column": 3,
+        "line": 21,
+        "column": 0
+      },
+      "op": "=",
+      "opLoc": "=",
+      "right": {
+        "type": "Unary",
+        "op": "new",
+        "it": {
+          "type": "Var",
+          "value": "C",
+          "first_line": 21,
+          "first_column": 9,
+          "last_line": 22,
+          "last_column": 0,
+          "line": 21,
+          "column": 9,
+          "newed": true
+        },
+        "first_line": 21,
+        "first_column": 5,
+        "last_line": 22,
+        "last_column": 0,
+        "line": 21,
+        "column": 5
+      },
+      "first_line": 21,
+      "first_column": 0,
+      "last_line": 22,
+      "last_column": 0,
+      "line": 21,
+      "column": 0
+    },
+    {
+      "type": "Assign",
+      "left": {
+        "type": "Var",
+        "value": "cc",
+        "first_line": 22,
+        "first_column": 0,
+        "last_line": 22,
+        "last_column": 3,
+        "line": 22,
+        "column": 0
+      },
+      "op": "=",
+      "opLoc": "=",
+      "right": {
+        "type": "Chain",
+        "head": {
+          "type": "Var",
+          "value": "AandC",
+          "first_line": 22,
+          "first_column": 5,
+          "last_line": 22,
+          "last_column": 10,
+          "line": 22,
+          "column": 5
+        },
+        "tails": [
+          {
+            "type": "Call",
+            "args": [
+              {
+                "type": "Var",
+                "value": "b1",
+                "first_line": 22,
+                "first_column": 11,
+                "last_line": 22,
+                "last_column": 13,
+                "line": 22,
+                "column": 11
+              },
+              {
+                "type": "Var",
+                "value": "c1",
+                "first_line": 22,
+                "first_column": 14,
+                "last_line": 22,
+                "last_column": 16,
+                "line": 22,
+                "column": 14
+              }
+            ],
+            "first_line": 22,
+            "first_column": 10,
+            "last_line": 24,
+            "last_column": 0,
+            "line": 22,
+            "column": 10
+          }
+        ],
+        "first_line": 22,
+        "first_column": 5,
+        "last_line": 24,
+        "last_column": 0,
+        "line": 22,
+        "column": 5
+      },
+      "first_line": 22,
+      "first_column": 0,
+      "last_line": 24,
+      "last_column": 0,
+      "line": 22,
+      "column": 0
+    }
+  ],
+  "first_line": 1,
+  "first_column": 0,
+  "last_line": 24,
+  "last_column": 0,
+  "line": 1,
+  "column": 0
+}
